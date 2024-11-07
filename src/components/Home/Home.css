@@ -377,3 +377,24 @@
   line-height: 72px;
   font-weight: 600;
 }
+
+.synergy-header {
+  background: linear-gradient(191.87deg, #003261 30.93%, #0087FF 91.63%);
+    -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent;
+  font-weight: 600;
+  line-height: 172px;
+}
+
+.syngery-subheader-1 {
+  font-weight: 600;
+  line-height: 84px;
+}
+
+.synergy-subheader-2 {
+  font-weight: 600;
+  line-height: 72px;
+}

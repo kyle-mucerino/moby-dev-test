@@ -13,6 +13,8 @@ import grid5 from '../../assets/Vector5.png';
 import sex1 from '../../assets/Group.png';
 import expandingArrows from '../../assets/expanding-arrows.png';
 import whale from '../../assets/whale.png';
+import yinYang from '../../assets/yinYang.png';
+import eggplant from '../../assets/eggplant.png';
 
 function Home() {
   return (
@@ -284,6 +286,73 @@ function Home() {
           <button className="text-blue-500 border-2 border-blue-600 rounded-full ml-4 p-4">
             Book
           </button>
+        </div>
+      </div>
+
+      {/* Moby Synergy */}
+      <div className="synergy-container flex flex-col items-start w-[1115px] h-[2179px] mx-[162.5px] my-[164px]">
+        {/* Inner Content Container */}
+        <div className="synergy-content-container flex flex-col items-center gap-[50px] w-[1126px] h-[1989px]">
+          {/* Header */}
+          <h1 className="text-[164px] synergy-header text-left">
+            Introducing Moby Synergy™
+          </h1>
+
+          {/* Subheader */}
+          <p className="text-[64px] text-left synergy-subheader-1">
+            Moby Shot™ plus Moby Wave™ equals More Moby™
+          </p>
+
+          {/* Image */}
+          <img
+            src={yinYang}
+            alt="Whale Yin Yang"
+            className="w-[799.7px] h-[905px]"
+          />
+
+          <p className="text-[48px] synergy-subheader-2 text-left">
+            By combining the Moby Shot™ and the Moby Wave™ we offer patients the
+            potential for more dramatic results.
+          </p>
+        </div>
+
+        {/* CTA Buttons Container */}
+        <div className="benefits-cta flex flex-row gap-[24px] w-[924px] h-[98px]">
+          <button className="bg-blue-500 rounded-full text-white">
+            Learn More
+          </button>
+          <button className="text-blue-500 border-2 border-blue-600 rounded-full ml-4 p-4">
+            Book
+          </button>
+        </div>
+      </div>
+
+      {/* Moby Max */}
+      <div className="moby-max h-[2251px] w-[1440px] flex flex-col justify-center items-center">
+        <div className="poster h-[1301px]">
+          <img
+            src={eggplant}
+            alt="Eggplant"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="w-[1111px] h-[838px] text-[48px] mt-[112px]">
+          <p>
+            Experience the thrill of more girth and deliver more sexual
+            satisfaction with Moby Max™. This procedure, performed by a
+            specialist, involves the precise injection of a state-of-the-art
+            filler into the erectile tissues. The enhancements from Moby Max™
+            are long-lasting—however, a follow-up procedure will eventually be
+            necessary to maintain your gains.
+          </p>
+          <div className="benefits-cta flex flex-row gap-[24px] w-[924px] h-[98px]">
+            <button className="bg-blue-500 rounded-full text-white">
+              Learn More
+            </button>
+            <button className="text-blue-500 border-2 border-blue-600 rounded-full ml-4 p-4">
+              Book
+            </button>
+          </div>
         </div>
       </div>
     </>
