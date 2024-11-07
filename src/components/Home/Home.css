@@ -1,0 +1,379 @@
+.homepage-hero {
+  height: 80vh;
+}
+
+/* Main Intro Section */
+.intro-section {
+  height: 1472.7px; /* Full section height including the image and text */
+}
+
+.intro-section img {
+  height: 788px; /* Image height */
+}
+
+.intro-section p {
+  color: #86868B;
+  text-align: end;
+}
+
+/* Main Intro Section */
+.intro-section {
+  height: 1472.7px; /* Full section height, including the image and text below */
+}
+
+/* Hero Text Overlay */
+.hero-text-overlay {
+  top: 27px;
+  left: 154px;
+  width: 1124px;
+  height: 256px;
+}
+
+/* Intro Paragraph Container */
+.intro-paragraph {
+  top: 888px;
+  left: 162.76px;
+  width: 1113.57px;
+  height: 584.79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  text-align: left;
+}
+
+/* Paragraph Text */
+.intro-paragraph .paragraph {
+  color: #86868B;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Button Container */
+.button-container {
+  width: 407.04px;
+  height: 73.79px;
+  padding: 16.72px 46.01px 17.6px 46.01px;
+}
+
+/* Button Styling */
+.cta-button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 118.06px;
+}
+
+/* Moby Shot Section */
+.moby-shot {
+  width: 1127.12px;
+  height: 3186.08px;
+  gap: 116px;
+}
+
+/* Frame 114 */
+.frame-114 {
+  width: 1127.12px;
+  height: 1583.29px;
+}
+
+.header-group {
+  width: 1127.12px;
+  height: 374.21px;
+}
+
+/* Header Group */
+.header-group .header-gradient {
+  font-size: 164px;
+  font-weight: 600;
+  line-height: 163.11px;
+  width: 957px;
+  height: 164px;
+}
+
+.header-gradient {
+  /* Apply gradient background */
+  background: linear-gradient(191.87deg, #003261 30.93%, #0087FF 91.63%);
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent;
+}
+
+
+
+.header-group .subheader {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 84px;
+}
+
+/* Rich Text */
+.rich-text p {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 600;
+}
+
+/* Benefits Grid */
+.benefits .benefits-subheader {
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.grid-1 p {
+  width: 232.54px;
+  height: 85.13px;
+  top: 2140.83px;
+  left: 68.16px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  line-height: 43.64px;
+  font-weight: 600;
+    /* Apply gradient background */
+  background: #86868B;
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent;
+}
+
+.grid-1 img {
+  width: 124.56px;
+  height: 126.66px;
+}
+
+.grid-2 p {
+  width: 232.54px;
+  height: 85.13px;
+  top: 2140.83px;
+  left: 68.16px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43.64px;
+    /* Apply gradient background */
+    /* Apply gradient background */
+  background: #86868B;
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent; 
+}
+
+.grid-2 img {
+  width: 124.56px;
+  height: 126.66px;
+}
+
+.grid-3 p {
+  width: 232.54px;
+  height: 85.13px;
+  top: 2140.83px;
+  left: 68.16px;
+  font-weight: 600;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  line-height: 43.64px;
+    /* Apply gradient background */
+    /* Apply gradient background */
+  background: #86868B;
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent; 
+}
+
+.grid-3 img {
+  width: 124.56px;
+  height: 126.66px;
+}
+
+.grid-4 p {
+  width: 232.54px;
+  height: 85.13px;
+  top: 2140.83px;
+  left: 68.16px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43.64px;
+    /* Apply gradient background */
+    /* Apply gradient background */
+  background: #86868B;
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent; 
+}
+
+.grid-4 img {
+  width: 124.56px;
+  height: 126.66px;
+}
+
+.grid-5 p {
+  font-size: 32px;
+  line-height: 43.64px;
+  font-weight: 600;
+    /* Apply gradient background */
+    /* Apply gradient background */
+  background: #86868B;
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Make the text transparent so gradient shows through */
+  color: transparent; 
+}
+
+.grid-5 img {
+  color:black
+}
+
+.grid-6 p {
+  width: 232.54px;
+  height: 85.13px;
+  top: 2140.83px;
+  left: 68.16px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  line-height: 43.64px;
+  font-weight: 600;
+    /* Apply gradient background */
+    /* Apply gradient background */
+  background: #86868B;
+  
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent; 
+}
+
+.grid-6 img {
+  width: 124.56px;
+  height: 126.66px;
+}
+
+.benefits-bottom-cta {
+  width: 1113px;
+  height: 406px;
+}
+
+.benefits-bottom-cta .benefits-bottom {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #86868B;
+}
+
+.benefits-cta button {
+  width: fit-content;
+  font-size: 45.31px;
+  width: Fixed (330.75px)px;
+  height: Fixed (97.41px)px;
+  padding: 15.86px 33.98px 15.86px 33.98px;
+  gap: 22.65px;
+  border-radius: 157.4px;
+  opacity: 0px;
+}
+
+.benefits-cta {
+  margin-top: 92px;
+}
+
+.moby-wave {
+  background-image: url('../../assets/whale.png');
+  width: 100%; /* or a specific width like 1440px */
+  height: 811.09px; /* or any height that fits your design */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.moby-wave {
+  background-image: url('../../assets/whale.png');
+  width: 100%; /* or a specific width like 1440px */
+  height: 811.09px; /* or any height that fits your design */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.moby-wave h1 {
+  font-size: 164px;
+  background: linear-gradient(180deg, #FFFFFF 20.43%, #B1ECFF 47.24%, #70DDFF 71.74%, #22CAFF 90.37%);
+    /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent;
+  font-weight: 600;
+}
+
+.moby-wave p {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  color: white;
+}
+
+.moby-whale h1 {
+  font-size: 164px;
+  background: linear-gradient(180deg, #FFFFFF 20.43%, #B1ECFF 47.24%, #70DDFF 71.74%, #22CAFF 90.37%);
+    /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the text transparent so gradient shows through */
+  color: transparent;
+  font-weight: 600;
+}
+
+.moby-whale p {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  color: white;
+}
+
+.wave-grid {
+  width: 1114.83px;
+  height: 1799.41px;
+}
+
+.wave-grid h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: left;
+}
+
+.wave-grid-bottom {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 600;
+}
