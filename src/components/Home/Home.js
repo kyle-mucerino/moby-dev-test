@@ -15,6 +15,10 @@ import expandingArrows from '../../assets/expanding-arrows.png';
 import whale from '../../assets/whale.png';
 import yinYang from '../../assets/yinYang.png';
 import eggplant from '../../assets/eggplant.png';
+import tail from '../../assets/tail.png';
+import cards from '../../assets/tale-cards.png';
+import plus from '../../assets/plus.png';
+import footer from '../../assets/footerWhale.png';
 
 function Home() {
   return (
@@ -353,6 +357,121 @@ function Home() {
               Book
             </button>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col moby-women h-[1699.81px] w-[1070.42px] text-left mx-[184.79px] justify-center items-center mb-[164px]">
+        <div className="header h-[547px]">
+          <h1 className="text-[164px]">Moby™ for Women</h1>
+          <p className="text-[64px] mt-[59px]">
+            Because her sexual health <br></br> matters too.
+          </p>
+        </div>
+        <div className="h-[981.39px] w-[1070.42px]">
+          <img src={tail} alt="Whale" className="" />
+        </div>
+        <div className="flex button-container text-center justify-center items-center">
+          <button className="tail text-white text-[45.31px]">Learn more</button>
+        </div>
+      </div>
+
+      {/* Moby Tales */}
+      <div className="flex flex-col tales h-[1321.34px] w-[1104.4px] justify-center items-center text-center mx-[167.8px] mb-[164px]">
+        <h1 className="text-[164px]">Moby™ Tales</h1>
+        <p className="text-[64px] leading-[73.63px]">
+          Stories of renewed confidence, performance, and pleasure
+        </p>
+        <div className="h-[538.39px] mt-[135.93px]">
+          <img src={cards} alt="Cards" className="" />
+        </div>
+        <button className="text-white text-[33.98px] leading-[39.28px] flex items-center">
+          Learn More About Success Stories
+          <img src={plus} alt="plus icon" />
+        </button>
+      </div>
+
+      {/* Optimize Ending */}
+      <div className="optimize flex flex-col h-[964.98px] w-[1145px] mx-[147.5px] justify-center items-center text-center mb-[164px]">
+        <h1 className="text-[164px] leading-[172px]">
+          Optimize your sexual health with Moby™
+        </h1>
+        <p className="text-[66.96px] leading-[100.45px] mt-[112px] mb-[92px]">
+          Confidence. Performance. Pleasure
+        </p>
+        <button className="text-[66.97px] leading-[100.45px] text-white flex items-center justify-center">
+          Book Now
+        </button>
+      </div>
+
+      {/* Footer */}
+      <div className="footer flex flex-col">
+        <div className="footer-header h-[607.83px] w-[1230.08px] mr-[67.6px] ml[104.96px]">
+          <h1 className="text-[58.93px] mb-[40.51px] text-white font-semibold">
+            MOBY™
+          </h1>
+          <div className="flex justify-between h-[187.43px] w-[1267.43px] text-white gap-y-[20px] gap-x-[106.8px]">
+            {/* Column 1 */}
+            <div className="grid grid-rows-3 w-[140px] gap-y-[20px]">
+              <div className="grid-1-footer">
+                <p className="text-[20.61px] uppercase">Providers</p>
+              </div>
+              <div className="grid-7-footer">
+                <p className="text-[20.615px] uppercase">Locations</p>
+              </div>
+              <div className="grid-11-footer">
+                <p className="text-[20.615px] uppercase">Who we are</p>
+              </div>
+            </div>
+
+            {/* Column 2 */}
+            <div className="grid grid-rows-3 w-[145px] gap-y-[20px]">
+              <div className="grid-2-footer">
+                <p className="text-[20.61px] uppercase">Moby™ Shot</p>
+              </div>
+              <div className="grid-8-footer">
+                <p className="text-[20.615px] uppercase">Moby™ Wave</p>
+              </div>
+              <div className="grid-12-footer">
+                <p className="text-[20.615px] uppercase">Moby™ Max</p>
+              </div>
+            </div>
+
+            {/* Column 3 */}
+            <div className="grid grid-rows-3 w-[185px] gap-y-[20px]">
+              <div className="grid-3-footer">
+                <p className="text-[20.61px] uppercase">Moby™ Synergy</p>
+              </div>
+              <div className="grid-9-footer">
+                <p className="text-[20.615px] uppercase">Moby™ Women</p>
+              </div>
+              <div className="grid-13-footer">
+                <p className="text-[20.615px] uppercase">Our patients</p>
+              </div>
+            </div>
+
+            {/* Column 4 */}
+            <div className="grid grid-rows-3 w-[255px] gap-y-[20px]">
+              <div className="grid-4-footer">
+                <p className="text-[20.615px] uppercase">Testosterone</p>
+              </div>
+              <div className="grid-10-footer">
+                <p className="text-[20.615px] uppercase">Erectile Dysfunction</p>
+              </div>
+              <div className="grid-14-footer">
+                <p className="text-[20.615px] uppercase">Medical terms</p>
+              </div>
+            </div>
+
+            {/* Column 5 */}
+            <div className="grid grid-rows-3 w-[180px] gap-y-[20px]">
+              <div className="grid-5-footer">
+                <p className="text-[20.615px] uppercase">Instagram</p>
+              </div>
+              <div className="grid-6-footer">
+                <p className="text-[20.615px] uppercase">Contact Us</p>
+              </div>
+            </div>
+          </div>
+          <img src={footer} alt="Whale" className="mt-[121.91px]" />
         </div>
       </div>
     </>

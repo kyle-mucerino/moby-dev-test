@@ -398,3 +398,51 @@
   font-weight: 600;
   line-height: 72px;
 }
+
+.button-container {
+  width: 463.14px;
+  height: 97.41px;
+  padding: 57.86px 35.22px 57.86px 35.22px;
+  border-radius: 90.37px;
+  background-color: #003261;
+}
+
+.button-container .tail {
+  padding-bottom: 0.68px;
+}
+
+.moby-women h1 {
+  line-height: 172px;
+  font-weight: 600;
+}
+
+.moby-women p {
+  line-height: 72px;
+  font-weight: 600;
+}
+
+.tales button {
+  width: 709.38px;
+  height: 116.38px;
+  padding: 38.55px 34.91px 38.55px 46.55px;
+  gap: 29.09px;
+  border-radius: 26.19px;
+  background-color: #1E1E1E;
+}
+
+.optimize button {
+  width: 512.31px;
+  height: 143.98px;
+  padding: 33.48px 53.57px 33.48px 53.57px;
+  border-radius: 232.66px;
+  background: #226DFF;
+  font-weight: 600;
+}
+
+.footer {
+  width: 1,440px;
+  height: 895.1px;
+  padding: 143.63px 103.12px 143.63px 103.12px;
+  gap: 36.83px;
+  background-color: #272727;
+}
